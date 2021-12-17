@@ -1,10 +1,10 @@
-"""Addition Class"""
+"""Addition Opperation Class"""
 from calc.calculations.calculation import Calculation
 
 class Addition(Calculation):
-    """ calculation addition class"""
+    """ Class for the additon opperation"""
     def get_result(self):
-        """get the addition results"""
+        """gets the result after adding the two numbers """
         sum_of_values = 0.0
         for value in self.values:
             sum_of_values = value + sum_of_values
